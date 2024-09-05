@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+}
+.left,
+.right {
+  width: 50%;
+  height: 100vh;
+  align-content: center;
+}
+
+.left {
+  background-color: rgb(157, 157, 157);
+}
+h1{
+    text-align: center;
+   font-size: 50px;
+   margin-bottom: 50px;
+}
+.reason, .description{
+    margin-left: 40px;
+}
+.description{
+    width: 75%;
+    color: #f1b963;
+}
+.create-button{
+    width: 39%;
+    height: 8%;
+    display: block;
+    margin: auto;
+    margin-top:50px ;
+    background-color: #155263;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    border-top: none;
+    border-left: none;
+}
+.right {
+  background-color: #155263;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+h2{
+    margin-bottom: 5px;
+}
+
+.details{
+    margin-bottom: 60px;
+}
+input{
+    width: 50%;
+    height: 7%;
+    margin-top: 10px;
+    font-weight: 700;
+    color: black;
+    border-radius: 6px;
+   
+    box-shadow: -3px 2px rgba(255, 255, 255, 0.4);
+}
+.login-button{
+    margin-top: 25px;
+    width: 35%;
+    height: 7%;
+    background-color:#f1b963 ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 4px;
+}
+.create-account{
+    margin-top: 40px;
+}
